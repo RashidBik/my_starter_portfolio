@@ -3,7 +3,7 @@ import React from 'react';
 // import components
 
 const App = () => {
-  return <div>react app</div>;
+  return <div>my portfolio</div>;
 };
 
 export default App;
