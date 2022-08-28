@@ -1,5 +1,6 @@
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
+  darkMode: 'media',
   theme: {
     fontFamily: {
       primary: 'Playfair Display',
@@ -35,7 +36,10 @@ module.exports = {
         },
         paragraph: '#878e99',
       },
-    },
+      grid: {
+        mySwiper: 'grid grid-row h-auto w-auto',
+      },
+     },
   },
   plugins: [],
 };

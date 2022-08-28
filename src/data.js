@@ -1,15 +1,21 @@
 //  icons
 import {
   FiYoutube,
-  FiInstagram,
   FiGithub,
   FiDribbble,
   FiLayout,
+  FiInstagram,
   FiSettings,
   FiPenTool,
   FiTag,
   FiMail,
   FiMapPin,
+  FaFacebookSquare,
+  FaSlack,
+  FaTelegram,
+  FaWhatsapp,
+  FaUbuntu,
+  SiSololearn,
 } from 'react-icons/fi';
 
 // companies icons
@@ -34,9 +40,10 @@ import SkillImg3 from './assets/img/skills/js.png';
 import SkillImg4 from './assets/img/skills/reactjs.png';
 import SkillImg5 from './assets/img/skills/nextjs.png';
 import SkillImg6 from './assets/img/skills/nodejs.png';
-import SkillImg7 from './assets/img/skills/git.png';
-import SkillImg8 from './assets/img/skills/figma.png';
-
+import SkillImg7 from './assets/img/skills/php.png';
+import SkillImg8 from './assets/img/skills/mysqli.png';
+import SkillImg9 from './assets/img/skills/git.png';
+import SkillImg10 from './assets/img/skills/figma.png';
 // testimonial images
 import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
 import TestiImage2 from './assets/img/testimonials/testimonial-2.webp';
@@ -71,7 +78,7 @@ export const navigation = [
 ];
 
 // social
-export const social = [
+export const socialIcon = [
   {
     icon: <FiYoutube />,
     href: '',
@@ -89,28 +96,31 @@ export const social = [
     href: '',
   },
 ];
-
+// https://www.facebook.com/badfoxxxxx/
+// https://github.com/RashidBik
+// https://t.me/RRRRRRRRRASHID
+// https://www.linkedin.com/in/rashid-bik-b830b8202/
 // companies
 export const brands = [
   {
     img: FreelancerBrandIcon,
-    href: '',
+    href: 'https://www.freelancer.com/',
   },
   {
     img: UpworkBrandIcon,
-    href: '',
+    href: 'https://www.upwork.com/',
   },
   {
     img: FiverBrandIcon,
-    href: '',
+    href: 'https://www.fiverr.com/',
   },
   {
     img: BehanceBrandIcon,
-    href: '',
+    href: 'https://www.behance.net/',
   },
   {
     img: DribbbleBrandIcon,
-    href: '',
+    href: 'https://dribbble.com/',
   },
 ];
 
@@ -155,7 +165,7 @@ export const projectsData = [
 ];
 
 // projects
-export const projectsNav = [
+export const projectNav = [
   {
     name: 'all',
   },
@@ -196,10 +206,16 @@ export const skills = [
   {
     image: SkillImg8,
   },
+  {
+    image: SkillImg9,
+  },
+  {
+    image: SkillImg10,
+  },
 ];
 
 // services
-export const services = [
+export const servicesData = [
   {
     icon: <FiLayout />,
     name: 'Web Design',
@@ -257,12 +273,12 @@ export const contact = [
     icon: <FiMail />,
     title: 'Have a question?',
     subtitle: 'I am here to help you.',
-    description: 'Email me at hello@youremail.com',
+    description: 'Email me at rashidbik777@gmil.com',
   },
   {
     icon: <FiMapPin />,
     title: 'Current Location',
-    subtitle: 'Bucharest, Romania',
+    subtitle: 'Kabul, Afghanistan',
     description: 'Serving clients worldwide',
   },
 ];
