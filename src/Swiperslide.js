@@ -1,9 +1,9 @@
 import React from 'react'
-import { Swiper, SwiperSlide } from 'swiper/react'
+// import { Swiper, SwiperSlide } from 'swiper/react'
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/grid";
-import SwiperCore, {Grid, Pagination} from 'swiper';
+// import SwiperCore, {Grid, Pagination} from 'swiper';
 import Carousel from 'nuka-carousel'
 
 SwiperCore.use([Pagination]);

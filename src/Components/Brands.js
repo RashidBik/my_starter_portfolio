@@ -1,4 +1,4 @@
-import { motion, transform } from 'framer-motion';
+import { motion} from 'framer-motion';
 import React from 'react';
 import {brands} from '../data'
 
@@ -12,8 +12,8 @@ function Brands() {
       justify-evenly'>
         {brands.map((brand, index) =>{
             return (
-                <motion.div 
-              
+                <motion.a 
+                href={brand.href}
                 whileTap={{
                   scale: 1.2,
                   transation:{
@@ -23,7 +23,7 @@ function Brands() {
                 }}
                 key={index}>
                     <img src={brand.img} alt='' />
-                </motion.div> 
+                </motion.a> 
             )
         })}
       </div>

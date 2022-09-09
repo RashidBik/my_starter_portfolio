@@ -14,7 +14,7 @@ const Portfolio = () => {
           before:hidden before:lg:block text-3xl font-black'>My Latest Work
           </h2>
         <p>
-          My Projects In Diffrent Feilds Are Listed Here
+      
         </p>
         </div>
         <Projects />

@@ -41,12 +41,13 @@ function Home({setShow}) {
             className='leading-[44px] md:leading-tight text-8xl 
             lg:leading-[1.2] font-bold md:tracking-[-2px] mix-blend-difference'>
                Front End <br /> Developer</motion.h3>
-            <p className='pt-4 pb-8 lg:pb-2 lg:pt-0 md: pt-6 md:pb-12 max-w-[480px] text-lg 
+            <p className='pt-4 pb-4 lg:pb-2 lg:pt-0 md: pt-6 md:pb-12 max-w-[480px] text-lg 
             text-center '>
               I work wiht React and Tailwind  
 
             </p>
-            <motion.button className='py-4 px-7 sm:mb-6 font-medium 
+            you
+            <motion.button className='py-4 mt-2 px-7 sm:mb-6 font-medium 
             text-white flex items-center justify-center 
             rounded-sm transition-all h-[48px] bg-accent 
             hover:bg-accent-hover md:btn-lg

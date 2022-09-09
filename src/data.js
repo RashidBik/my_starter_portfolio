@@ -1,10 +1,10 @@
 //  icons
 import {
   FiYoutube,
+  FiInstagram,
   FiGithub,
   FiDribbble,
   FiLayout,
-  FiInstagram,
   FiSettings,
   FiPenTool,
   FiTag,
@@ -89,7 +89,7 @@ export const socialIcon = [
   },
   {
     icon: <FiGithub />,
-    href: '',
+    href: 'https://github.com/RashidBik',
   },
   {
     icon: <FiDribbble />,
@@ -97,7 +97,6 @@ export const socialIcon = [
   },
 ];
 // https://www.facebook.com/badfoxxxxx/
-// https://github.com/RashidBik
 // https://t.me/RRRRRRRRRASHID
 // https://www.linkedin.com/in/rashid-bik-b830b8202/
 // companies
