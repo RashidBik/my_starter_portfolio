@@ -10,12 +10,12 @@ import {
   FiTag,
   FiMail,
   FiMapPin,
-  FaFacebookSquare,
-  FaSlack,
-  FaTelegram,
-  FaWhatsapp,
-  FaUbuntu,
-  SiSololearn,
+  // FaFacebookSquare,
+  // FaSlack,
+  // FaTelegram,
+  // FaWhatsapp,
+  // FaUbuntu,
+  // SiSololearn,
 } from 'react-icons/fi';
 
 // companies icons
@@ -48,6 +48,7 @@ import SkillImg10 from './assets/img/skills/figma.png';
 import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
 import TestiImage2 from './assets/img/testimonials/testimonial-2.webp';
 import TestiImage3 from './assets/img/testimonials/testimonial-3.webp';
+import React from 'react';
 
 // navigation
 export const navigation = [

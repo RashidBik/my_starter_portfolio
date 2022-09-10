@@ -17,10 +17,10 @@ const Header = () => {
       <div className='container mx-auto h-full flex items-center justify-between '>
         <a className='text-white text-[30px] font-[cursive]' href='#'>
           Rashid Bik 
-          <span className={`${ bg ? 'bg-gray-100 absolute h-[40px] w-[60px]': ''}`}>
-            <span className={`${ bg ? 'absolute h-[40px] w-[60px] bg-cover bg-[url("//image.shutterstock.com/image-vector/jumping-fox-250nw-184310276.jpg")] mix-blend-exclusion': ''}`}>
+          {/* <span className={`${ bg ? 'bg-gray-100 absolute h-[40px] w-[60px]': ''}`}>
+            <span className={`${ bg ? 'absolute h-[40px] w-[60px] bg-cover bg-[url("../../assets/img/RashidLogo.png")] mix-blend-exclusion': ''}`}>
             </span>
-          </span>
+          </span> */}
         </a>
         <div className='hidden lg:block '>
             <Nav />
