@@ -220,25 +220,25 @@ export const servicesData = [
     icon: <FiLayout />,
     name: 'Web Design',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'Transform app designs into front-end code with HTML, CSS, JavaScript/ react',
   },
   {
     icon: <FiSettings />,
     name: 'Web Development',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'Work with back-end developers to integrate UI components with APIs and databases.',
   },
   {
     icon: <FiPenTool />,
     name: 'Branding',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'Stay plugged into emerging technologies and industry trends.',
   },
   {
     icon: <FiTag />,
     name: 'SEO',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'Write high-quality, scalable, and reusable code, On-site search engine optimization (SEO).',
   },
 ];
 
