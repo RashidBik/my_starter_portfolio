@@ -38,8 +38,8 @@ function Home({setShow}) {
             initial={{rotate: -2}}
             whileTap={{rotate: 2}}
             transition={{type: 'spring', stiffness: 400}}
-            className='leading-[44px] md:leading-tight text-8xl 
-            lg:leading-[1.2] font-bold md:tracking-[-2px] mix-blend-difference'>
+            className='leading-[44px] md:leading-tight lg:text-8xl text-6xl 
+            lg:leading-[1.2] font-madi font-bold md:tracking-[-2px] mix-blend-difference'>
                Front End <br /> Developer</motion.h3>
             <p className='pt-4 pb-4 lg:pb-2 lg:pt-0 md: pt-6 md:pb-12 max-w-[480px] text-lg 
             text-center '>

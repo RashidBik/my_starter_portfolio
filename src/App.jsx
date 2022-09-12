@@ -23,7 +23,7 @@ function App() {
    <AnimatePresence >
       {window.onload ? <Loader />
       :(       
-     <div className="bg-white dark:bg-gray-900 ">
+     <div className="bg-white dark:bg-gray-900 scroll-smooth hover:scroll-auto">
         <Show show={show} setShow={setShow} />
         <Header/>
         <Home setShow={setShow} />
