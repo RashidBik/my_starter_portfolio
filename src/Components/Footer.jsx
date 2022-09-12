@@ -18,8 +18,9 @@ const Footer = () => {
                 })}
             </div>
             <div className='lg:m-4 font-black text-3xl font-[cursive]'>
-              Rashid Bik
-            </div>
+            <img src="src/assets/img/RashidLogo.png"
+                className='w-[140px]'
+          />            </div>
             <p>
                 &copy; 2022 All rights reserved.
             </p>
