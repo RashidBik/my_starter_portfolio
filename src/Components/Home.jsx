@@ -3,7 +3,6 @@ import React from 'react'
 import { TypeAnimation } from 'react-type-animation';
 
 
-
 function Home({setShow}) {
   const motionVarient = {
     hidden: {
@@ -18,6 +17,7 @@ function Home({setShow}) {
       },
     }
   }
+
 
   return (
     <section id='section' className='lg:h-[85vh] h-[78vh] flex items-center 

@@ -1,7 +1,20 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import {contact} from '../data'
+import emailjs from '@emailjs/browser';
+
 
 function Contact() {
+  const form = useRef();
+     const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs.sendForm('service_71a5e8a', 'template_faj5edi', form.current, 'MM724zbCsMzXBRs_J')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+    };
   return (
     <section className='py-12 lg:py-12 bg-accent border-y' id='contact'>
       <div className='container mx-auto' >
@@ -37,38 +50,62 @@ Contact Me
             })}
           
         </div>
-        <form className='space-y-8 w-full max-w-[780px] 
-        bg-[#9f5e36] rounded-md p-6 shadow shadow-gray-300
-        '>
-          <h1 className='font-black text-white'>Leave a message</h1>
+        <form
+             ref={form} 
+             onSubmit={sendEmail} 
+             className='space-y-8 w-full max-w-[780px] 
+             bg-[#9f5e36] rounded-md p-6 shadow shadow-gray-300'
+        >
+            <h1 
+            className='font-black text-white'>
+              Leave a message
+            </h1>
               <div className='flex gap-8'>
-                <input type='text' placeholder='Your name' 
-                className='text-paragraph h-[60px] 
-                bg-accent border border-gray-400
-                outline-none pl-6 w-full font-body text-[15px] 
-                rounded-sm focus:outline focus:outline-1 
-                focus:outline-accent'/>
-                <input type='email' placeholder='Your Email' 
-                className='bg-accent border border-gray-400 
-                text-paragraph h-[60px] 
-                outline-none pl-6 w-full font-body text-[15px] 
-                rounded-sm focus:outline focus:outline-1 
-                focus:outline-accent'/>
+                <input 
+                  type='text' 
+                  name='user_name'
+                  placeholder='Your name' 
+                  className='text-paragraph h-[60px] 
+                  bg-accent border border-gray-400
+                  outline-none pl-6 w-full font-body text-[15px] 
+                  rounded-sm focus:outline focus:outline-1 
+                  focus:outline-accent'
+                />
+                <input 
+                  type='email' 
+                  name='user_email'
+                  placeholder='Your Email' 
+                  className='bg-accent border border-gray-400 
+                  text-paragraph h-[60px] 
+                  outline-none pl-6 w-full font-body text-[15px] 
+                  rounded-sm focus:outline focus:outline-1 
+                  focus:outline-accent'
+                />
               </div>
-              <input type='text' placeholder='Discription' 
-              className='bg-accent border border-gray-400 text-paragraph h-[60px]
-               outline-none pl-6 w-full font-body text-[15px]
+              <input 
+                type='text' 
+                name=''
+                placeholder='Discription' 
+                className='bg-accent border border-gray-400 text-paragraph h-[60px]
+                outline-none pl-6 w-full font-body text-[15px]
                 rounded-sm focus:outline focus:outline-1 
-                focus:outline-accent '/>
-              <textarea className='bg-accent border border-gray-400 resize-none w-full
-               outline-none p-6 rounded-sm h-[200px] 
-               focus:outline focus:outline-1 
-               focus:outline-accent' placeholder='your message'></textarea> 
-              <button className='py-4 px-7 font-medium 
-              text-accent flex items-center justify-center 
-              rounded-sm transition-all 
-              btn-lg bg-gray-300 
-              hover:bg-gray-100'>
+                focus:outline-accent '
+              />
+              <textarea 
+                 name='message'
+                 className='bg-accent border border-gray-400 resize-none w-full
+                 outline-none p-6 rounded-sm h-[200px] 
+                 focus:outline focus:outline-1 
+                 focus:outline-accent' 
+                 placeholder='your message'>
+              </textarea> 
+              <button 
+                type='submit'
+                className='py-4 px-7 font-medium 
+                text-accent flex items-center justify-center 
+                rounded-sm transition-all 
+                btn-lg bg-gray-300 
+                hover:bg-gray-100'>
                 Send message
               </button>
             </form>
