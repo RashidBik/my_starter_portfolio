@@ -1,6 +1,8 @@
 import { motion } from 'framer-motion'
 import React from 'react'
- 
+import { TypeAnimation } from 'react-type-animation';
+
+
 
 function Home({setShow}) {
   const motionVarient = {
@@ -41,12 +43,27 @@ function Home({setShow}) {
             className='leading-[44px] md:leading-tight lg:text-8xl text-6xl 
             lg:leading-[1.2] font-madi font-bold md:tracking-[-2px] mix-blend-difference'>
                Front End <br /> Developer</motion.h3>
-            <p className='pt-4 pb-4 lg:pb-2 lg:pt-0 md: pt-6 md:pb-12 max-w-[480px] text-lg 
+            <p className='pt-4 pb-4 lg:pb-2 lg:pt-0 md: pt-6 md:pb-12 max-w-[480px] lg:text-lg font-madi
             text-center '>
-              I work wiht React and Tailwind  
-
+              I
+            <TypeAnimation
+                sequence={[
+                  'Love React And Tailwind',
+                  1000,             
+                  'Work With React And Tainlwind', 
+                  2000, 
+                  'Enjoy React With Tailwind', 
+                  () => {
+                    console.log('Done typing!'); 
+                  }
+                ]}
+                wrapper="div"
+                cursor={true}
+                repeat={Infinity}
+                style={{ fontSize: '2em' }}
+              />
             </p>
-            you
+            <p className='font-madi'>You</p>
             <motion.button className='py-4 mt-2 px-7 sm:mb-6 font-medium 
             text-white flex items-center justify-center 
             rounded-sm transition-all h-[48px] bg-accent 

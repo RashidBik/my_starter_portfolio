@@ -15,8 +15,8 @@ function Testimonials() {
               before:hidden before:lg:block text-3xl font-black mb-6'>
             What Other People Say
           </h2>
-          <p className='subtitle'>
-            lkkkkkkkkkkkkkkkkkkkkkk
+          <p className='subtitle font-bold text-md text-accent'>
+            I Love To Hear From You
           </p>
         </div>
         <TestimonialSlider />

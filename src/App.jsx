@@ -14,7 +14,7 @@ import BacKTotop from './Components/BacKTotop';
 import Show from './Show';
 import Loader from './Components/Loader';
 import { AnimatePresence } from 'framer-motion';
-
+import ErrorBoundry from './ErrorBoundry';
 
 
 function App() {
@@ -24,18 +24,18 @@ function App() {
       {window.onload ? <Loader />
       :(       
      <div className="bg-white dark:bg-gray-900 scroll-smooth hover:scroll-auto">
-        <Show show={show} setShow={setShow} />
-        <Header/>
-        <Home setShow={setShow} />
-        <Brands />
-        <About />
-        <Skills />
-        <Portfolio />
-        <Services />
-        <Testimonials />
-        <Contact />
-        <Footer />
-        <BacKTotop /> 
+         <Show show={show} setShow={setShow} />
+         <ErrorBoundry><Header/></ErrorBoundry>
+         <ErrorBoundry><Home setShow={setShow} /></ErrorBoundry>
+         <ErrorBoundry><Brands /></ErrorBoundry>
+         <ErrorBoundry><About /></ErrorBoundry>
+         <ErrorBoundry><Skills /></ErrorBoundry>
+         <ErrorBoundry><Portfolio /></ErrorBoundry>
+         <ErrorBoundry><Services /></ErrorBoundry>
+         <ErrorBoundry><Testimonials /></ErrorBoundry>
+         <ErrorBoundry><Contact /></ErrorBoundry>
+         <ErrorBoundry><Footer /></ErrorBoundry>
+         <ErrorBoundry><BacKTotop /></ErrorBoundry>
      </div>
        ) 
        }
