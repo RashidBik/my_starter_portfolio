@@ -136,36 +136,42 @@ export const projectsData = [
     image: Project1,
     name: 'project name 1',
     category: 'UI/UX design',
+    href: '',
   },
   {
     id: '2',
     image: Project2,
-    name: 'project name 2',
+    name: 'Divan',
     category: 'web development',
+    href: '',
   },
   {
     id: '3',
     image: Project3,
     name: 'project name 3',
     category: 'UI/UX design',
+    href: '',
   },
   {
     id: '4',
     image: Project4,
     name: 'project name 4',
     category: 'branding',
+    href: '',
   },
   {
     id: '5',
     image: Project5,
     name: 'project name 5',
     category: 'web development',
+    href: '',
   },
   {
     id: '6',
     image: Project6,
     name: 'project name 6',
     category: 'web development',
+    href: '',
   },
 ];
 

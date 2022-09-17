@@ -21,10 +21,12 @@ const Project = ({item}) => {
         onMouseOver={pictureNav}
         onMouseOut={unPictureNav}
         />
-       {state && (<div onMouseOver={pictureNav}
+       {state && (<div 
+       onMouseOver={pictureNav}
+       onMouseOut={unPictureNav}
 
         className='absolute bottom-0 border-b rounded-b-2xl h-16 w-full bg-accent flex flex-col'>
-          <a href='#' 
+          <a href={item.href} 
           className='text-2xl font-black'>Lets See</a>
           <span>{item.name}</span>
         </div>
