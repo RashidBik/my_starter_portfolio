@@ -7,7 +7,8 @@ module.exports = {
     fontFamily: {
       primary: 'Playfair Display',
       body: 'Work Sans',
-      madi: ['"Ms Madi"', 'cursive']
+      madi: ['"Ms Madi"', 'cursive'],
+      lobster: ['"Lobster Two"', 'cursive'],
     },
     container: {
       padding: {

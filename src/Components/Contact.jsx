@@ -28,7 +28,7 @@ function Contact() {
                 relative before:absolute before:opacity-40
                 before:-top-7 before:-left-40 before:hidden
                 before:lg:block text-3xl
-                lg:mb-2 font-bold text-white'>
+                lg:mb-2 font-bold text-white font-lobster'>
 Contact Me
           </h2>
           <p className='subtitle mb-4 lg:mb-6'>

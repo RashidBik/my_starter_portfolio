@@ -68,7 +68,7 @@ function Home({setShow}) {
             text-white flex items-center justify-center 
             rounded-sm transition-all h-[48px] bg-accent 
             hover:bg-accent-hover md:btn-lg
-            transation-all'
+            transation-all font-lobster'
             initial={{scale: 1.9}}
             animate={{scale: 1.1}}
             transition={{type: 'spring', stiffness: 400}}

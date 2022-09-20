@@ -14,7 +14,7 @@ function Services() {
           before:absolute before:opacity-40
           before:-top-[2rem] before:-left-28
           before:hidden before:lg:block
-          text-3xl font-black mb-6'>
+          text-3xl font-black mb-6 font-lobster'>
               What I Do For Clients
           </h2>
           <p className='flex flex-col items-center px-6 lg:px-28 lg:text-xl indent-8 pb-8 text-center'>

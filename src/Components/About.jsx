@@ -16,7 +16,7 @@ function About() {
               before:content-about relative 
               before:absolute before:opacity-40 
               before:-top[2rem] before:hidden 
-              before:lg:block font-black'> About
+              before:lg:block font-black  font-lobster'> About
               </h2>
               <p className='mb-2 text-accent text-xl font-black ' >I build and develop digital products</p>
               <hr className='mb-4 opacity-5' />
