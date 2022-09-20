@@ -19,7 +19,7 @@ const TestimonialSlider = () => {
                pauseOnMouseEnter:true,
                stopOnLastSlide:false
            }}
-           slidesPerView={2}
+           slidesPerView={3}
            className='mySwiper m-0 flex justify-center'
           >  
          {testimonials.map((item, index) => {
@@ -27,13 +27,13 @@ const TestimonialSlider = () => {
             return (
                <SwiperSlide key={index} >
                 <div className='flex flex-col justify-between px-6 lg:px-10'>
-                 <img className='rounded-2xl w-[100px]' src={authorImg} alt='' />
+                 <img className='rounded-2xl w-[100px] lg:w-[200px]' src={authorImg} alt='' />
                    <div className=''>
                      <div className=''>
-                        <p className='font-bold'>{authorName}</p>
-                        <p>{authorPosition}</p>
+                        <p className='font-bold text-[8px] lg:text-xl'>{authorName}</p>
+                        <p className='text-[8px] lg:text-xl'>{authorPosition}</p>
                       </div>
-                      <h5 className='font-body italic font-normal' >
+                      <h5 className='font-body italic font-normal lg:w-60 text-[8px] lg:text-xl' >
                         {authorText}
                       </h5>
                     </div>

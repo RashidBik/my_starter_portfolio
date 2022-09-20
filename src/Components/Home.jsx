@@ -23,6 +23,7 @@ function Home({setShow}) {
     <section id='section' className='lg:h-[85vh] h-[78vh] flex items-center 
     lg:bg-cover bg-center bg-no-repeat  overflow-hidden
      bg-[url("./assets/img/wallpaper.jpg")]
+     bg-fixed
     '>  
     <div className='w-full h-full  '> 
       <div className='container mx-auto h-full w-full '>
@@ -61,6 +62,7 @@ function Home({setShow}) {
                 cursor={true}
                 repeat={Infinity}
                 style={{ fontSize: '2em' }}
+                className="text-gray-500 lg:text-gray-100"
               />
             </p>
             <p className='font-madi'>You</p>
