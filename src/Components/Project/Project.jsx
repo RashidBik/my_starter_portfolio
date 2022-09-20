@@ -15,7 +15,7 @@ const Project = ({item}) => {
          className='flex flex-col items-center text-center'>
       <div className='mb-8 relative bg-gray-900 bg-clip-content rounded-2xl'>
         <img className='rounded-2xl shadow-md shadow-gray-700
-         hover:p-2 bg-gray-900 hover:bg-clip-content 
+         bg-gray-900 hover:bg-clip-content 
          hover:opacity-40' 
         src={item.image} alt='img' 
         onMouseOver={pictureNav}
@@ -27,7 +27,7 @@ const Project = ({item}) => {
 
         className='absolute bottom-0 border-b rounded-b-2xl h-16 w-full bg-accent flex flex-col'>
           <a href={item.href} 
-          className='text-2xl font-black'>Lets See</a>
+          className='text-2xl font-black hover:text-gray-100'>Lets See</a>
           <span>{item.name}</span>
         </div>
         )} 

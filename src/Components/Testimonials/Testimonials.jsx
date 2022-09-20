@@ -5,7 +5,7 @@ import TestimonialSlider from './TestimonialSlider'
 function Testimonials() {
 
   return (
-    <section id='Testimonials' className='py-6 lg:py-32 mb-0'>
+    <section id='Testimonials' className='mt-6'>
       <div className='container my-auto'>
         <div className='flex flex-col items-center text-center'>
           <h2 className='section-title 
@@ -15,7 +15,7 @@ function Testimonials() {
               before:hidden before:lg:block text-3xl font-black mb-6'>
             What Other People Say
           </h2>
-          <p className='subtitle font-bold text-md text-accent'>
+          <p className='subtitle font-bold text-md text-accent mb-6'>
             I Love To Hear From You
           </p>
         </div>

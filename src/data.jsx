@@ -10,6 +10,8 @@ import {
   FiTag,
   FiMail,
   FiMapPin,
+  FiFacebook,
+  FiLinkedin,
   // FaFacebookSquare,
   // FaSlack,
   // FaTelegram,
@@ -86,12 +88,12 @@ export const navigation = [
 // social
 export const socialIcon = [
   {
-    icon: <FiYoutube />,
-    href: '',
+    icon: <FiFacebook />,
+    href: 'https://www.facebook.com/badfoxxxxx/',
   },
   {
-    icon: <FiInstagram />,
-    href: '',
+    icon: <FiLinkedin />,
+    href: 'https://www.linkedin.com/in/rashid-bik-b830b8202/',
   },
   {
     icon: <FiGithub />,
@@ -99,13 +101,11 @@ export const socialIcon = [
   },
   {
     icon: <FiDribbble />,
-    href: '',
+    href: 'https://dribbble.com/rashidbik',
   },
 ];
-// https://www.facebook.com/badfoxxxxx/
 // https://t.me/RRRRRRRRRASHID
-// https://www.linkedin.com/in/rashid-bik-b830b8202/
-// companies
+
 export const brands = [
   {
     img: FreelancerBrandIcon,
@@ -134,28 +134,28 @@ export const projectsData = [
   {
     id: '1',
     image: Project1,
-    name: 'project name 1',
+    name: 'Music player',
     category: 'UI/UX design',
     href: '',
   },
   {
     id: '2',
     image: Project2,
-    name: 'Divan',
+    name: 'Lets learn JS methods easily',
     category: 'web development',
     href: '',
   },
   {
     id: '3',
     image: Project3,
-    name: 'project name 3',
+    name: 'Divan social media',
     category: 'UI/UX design',
-    href: '',
+    href: 'http://divan-client.vercel.app/',
   },
   {
     id: '4',
     image: Project4,
-    name: 'project name 4',
+    name: 'Marketing',
     category: 'branding',
     href: '',
   },

@@ -6,9 +6,7 @@ import "swiper/css/pagination";
 import "swiper/css/grid";
 import SwiperCore, {Pagination} from 'swiper';
 
-
 SwiperCore.use([Pagination]);
-
 
 const TestimonialSlider = () => {
   return (
@@ -21,21 +19,21 @@ const TestimonialSlider = () => {
                pauseOnMouseEnter:true,
                stopOnLastSlide:false
            }}
-           slidesPerView={1}
+           slidesPerView={2}
            className='mySwiper m-0 flex justify-center'
           >  
          {testimonials.map((item, index) => {
             const {authorImg, authorText, authorName, authorPosition} = item;
             return (
                <SwiperSlide key={index} >
-                <div className='flex flex-col lg:flex-row mt-4 lg:mt-12 lg:gap-2 px-2 lg:px-28'>
-                 <img className='rounded-2xl' src={authorImg} alt='' />
-                   <div className='flex flex-col text-center max-w-3xl ' >
-                     <div className='text-center mb-4'>
-                        <p className='text-xl font-bold'>{authorName}</p>
+                <div className='flex flex-col justify-between px-6 lg:px-10'>
+                 <img className='rounded-2xl w-[100px]' src={authorImg} alt='' />
+                   <div className=''>
+                     <div className=''>
+                        <p className='font-bold'>{authorName}</p>
                         <p>{authorPosition}</p>
                       </div>
-                      <h5 className='font-body text-xl lg:text-2xl mb-9 italic font-normal' >
+                      <h5 className='font-body italic font-normal' >
                         {authorText}
                       </h5>
                     </div>
