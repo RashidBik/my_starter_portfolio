@@ -31,7 +31,7 @@ function Contact() {
                 lg:mb-2 font-bold text-white font-lobster'>
 Contact Me
           </h2>
-          <p className='subtitle mb-4 lg:mb-6'>
+          <p className='subtitle mb-4 lg:mb-6 font-lobster'>
             Ask Me A Question Or Hire Me Right Now
           </p>
         </div>
@@ -72,9 +72,9 @@ Contact Me
                   placeholder='Your name' 
                   className='text-paragraph h-[60px] 
                   bg-accent border border-gray-400
-                  outline-none pl-6 w-full font-body text-[15px] 
+                  outline-none pl-6 w-full font-body text-[20px] 
                   rounded-sm focus:outline focus:outline-1 
-                  focus:outline-accent'
+                  focus:outline-accent text-gray-900'
                   />
                 <input 
                   type='email' 
@@ -82,12 +82,12 @@ Contact Me
                   placeholder='Your Email' 
                   className='bg-accent border border-gray-400 
                   text-paragraph h-[60px] 
-                  outline-none pl-6 w-full font-body text-[15px] 
+                  outline-none pl-6 w-full font-body text-[20px] 
                   rounded-sm focus:outline focus:outline-1 
-                  focus:outline-accent'
+                  focus:outline-accent text-gray-900'
                   />
               </div>
-              <input 
+              {/* <input 
                 type='text' 
                 name=''
                 placeholder='Discription' 
@@ -95,13 +95,13 @@ Contact Me
                 outline-none pl-6 w-full font-body text-[15px]
                 rounded-sm focus:outline focus:outline-1 
                 focus:outline-accent '
-                />
+                /> */}
               <textarea 
                  name='message'
                  className='bg-accent border border-gray-400 resize-none w-full
                  outline-none p-6 rounded-sm h-[200px] 
                  focus:outline focus:outline-1 
-                 focus:outline-accent' 
+                 focus:outline-accent text-[22px]' 
                  placeholder='your message'>
               </textarea> 
               <button 

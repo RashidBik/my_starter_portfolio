@@ -134,23 +134,26 @@ export const projectsData = [
   {
     id: '1',
     image: Project1,
-    name: 'Music player',
+    name: 'Rythem',
     category: 'UI/UX design',
     href: '',
+    discription: 'Music player',
   },
   {
     id: '2',
     image: Project2,
-    name: 'Lets learn JS methods easily',
+    name: 'JS_Method',
     category: 'web development',
     href: '',
+    discription: 'Lets learn JS methods easily',
   },
   {
     id: '3',
     image: Project3,
-    name: 'Divan social media',
+    name: 'Divan',
     category: 'UI/UX design',
     href: 'http://divan-client.vercel.app/',
+    discription: 'Social Media',
   },
   {
     id: '4',
@@ -158,6 +161,7 @@ export const projectsData = [
     name: 'Marketing',
     category: 'branding',
     href: '',
+    discription: '',
   },
   {
     id: '5',
@@ -165,6 +169,7 @@ export const projectsData = [
     name: 'project name 5',
     category: 'web development',
     href: '',
+    discription: '',
   },
   {
     id: '6',
@@ -172,6 +177,7 @@ export const projectsData = [
     name: 'project name 6',
     category: 'web development',
     href: '',
+    discription: '',
   },
 ];
 

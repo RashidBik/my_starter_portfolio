@@ -17,7 +17,8 @@ function Services() {
           text-3xl font-black mb-6 font-lobster'>
               What I Do For Clients
           </h2>
-          <p className='flex flex-col items-center px-6 lg:px-28 lg:text-xl indent-8 pb-8 text-center'>
+          <p className='flex flex-col items-center px-6 lg:px-28 lg:text-[28px]
+           indent-8 pb-8 text-center font-madi'>
             As a front-end developer I use HTML,
              CSS, JavaScript and the most famouse library 
              react and also the handsome framework of css 

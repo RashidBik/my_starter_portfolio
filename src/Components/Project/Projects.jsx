@@ -29,7 +29,7 @@ const Projects = () => {
 
     return (
     <div>
-      <nav className='mb-12 max-w-xl mx-auto'>
+      <nav className='mb-12 max-w-xl mx-auto text-accent'>
         <ul className='flex flex-col md:flex-row 
         justify-evenly items-center font-bold'
         >
@@ -40,7 +40,7 @@ const Projects = () => {
 
                     }}
                     className={`${active === index ? 'active' : ''}
-                    cursor-pointer capitalize m-4`}
+                    cursor-pointer capitalize m-4 hover:text-gray-900`}
                     key={index} >{item.name}</li>
                 )
             })}
