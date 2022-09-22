@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React,{useState,useEffect} from 'react';
 import './input.css';
 import Home from './Components/Home';
 import About from './Components/About';
@@ -19,9 +19,15 @@ import ErrorBoundry from './ErrorBoundry';
 
 function App() {
  const [show, setShow] = useState(false);
+ const [isLoad, setIsLoad] = useState(false);
+ useEffect(() => {
+  setTimeout(() => {
+    setIsLoad(true)
+  }, 3000);
+ }, []);
   return (
    <AnimatePresence >
-      {window.onload ? <Loader />
+      {!isLoad ? <Loader />
       :(       
      <div className="bg-white dark:bg-gray-900 scroll-smooth hover:scroll-auto ">
          <Show show={show} setShow={setShow} />
