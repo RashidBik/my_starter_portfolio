@@ -2,7 +2,6 @@ import React from 'react'
 import image from '../assets/img/rashid1.jpg';
 
 function About() {
-
   return (
     <section className='py-12 lg:py-32 '>
       <div className='container mx-auto'>
@@ -39,7 +38,6 @@ You can read more about my biography, experience, skills, education and much mor
            </a>
           </div>
         </div>
-
       </div>
     </section>
   )
