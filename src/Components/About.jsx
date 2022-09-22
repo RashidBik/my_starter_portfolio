@@ -29,12 +29,12 @@ I like to develop expertise in a number of areas over the course of my life and 
 You can read more about my biography, experience, skills, education and much more in the PDF attached bellow:
               </p>
             </div>
-           <a href='' download={'myressume.pdf'}>
+           <a href='src/assets/ressume/Rashidbik-Ressume2022.pdf' download='src/assets/ressume/Rashidbik-Ressume2022.pdf'>
             <button className='py-4 px-7 font-medium text-white flex items-center justify-center rounded-sm hover:bg-accent-hover transition-all btn-md bg-accent 
             hover:bg-accent-hover transition-all'>
               My resume
             </button>
-            (pdf 109kb)
+            (pdf 49.8kb)
            </a>
           </div>
         </div>
